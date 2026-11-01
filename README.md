@@ -21,7 +21,9 @@ To install a stable build of Vulcan:
 * If you downloaded the installer, there is no need to unarchive it and you may open it straight from the box.
 * If you downloaded the installer, follow the installation instructions and install the components of Vulcan that you want.
 * If you downloaded the archive, you will be able to use Vulcan straight out of the box.
+
 To install a nightly/development build of Vulcan:
+
 * Download the Vulcan source code by clicking the green 'Code' button at the top of the page, then clicking the 'Download ZIP' option at the bottom of the menu.
 * Unarchive the ZIP archive using software such as 7-Zip or WINRAR.
 * Navigate to the Vulcan development build directory by going to `\dev\`.
