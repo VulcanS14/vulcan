@@ -157,6 +157,7 @@ SectionGroup "Vulcan" vulcan
 		WriteRegStr HKLM "Software\Classes\Vulcan Extension\shell\open\command" "" "$INSTDIR\Vulcan.exe $\"$INSTDIR\Vulcan.image$\" $\"%1$\""
 	
 		File /x "Vulcan.changes" /x "SqueakV2.sources" /x "ScratchSkin" "C:\vulcanRes\vulcanWin\dev\*.*"
+		File /r "C:\vulcanRes\vulcanWin\dev\Icons"
 	
 		CreateDirectory $SMPROGRAMS\Vulcan
 		CreateShortcut $SMPROGRAMS\Vulcan\Vulcan.lnk $INSTDIR\Vulcan.exe
@@ -190,7 +191,7 @@ SectionGroupEnd
 !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
 	!insertmacro MUI_DESCRIPTION_TEXT ${vulcan} "The Vulcan software itself."
 	!insertmacro MUI_DESCRIPTION_TEXT ${required} "Required files and registry keys for Vulcan to function and appear properly on your setting app's application page."
-	!insertmacro MUI_DESCRIPTION_TEXT ${help} "Optional help files."
+	!insertmacro MUI_DESCRIPTION_TEXT ${help} "Optional help files such as block definitions and manuals."
 	!insertmacro MUI_DESCRIPTION_TEXT ${media} "Optional sample media for you to use in your Vulcan projects."
 	!insertmacro MUI_DESCRIPTION_TEXT ${backgrounds} "Optional sample backgrounds for you to use in your Vulcan projects."
 	!insertmacro MUI_DESCRIPTION_TEXT ${costumes} "Optional sample costumes for you to use in your Vulcan projects."
