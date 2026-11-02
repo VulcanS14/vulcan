@@ -12,7 +12,10 @@
 > [!NOTE]
 > For a full list of features, go to (insert itch.io link once finished).
 
-* Clipboard History - When you delete something (e.g. a background, a sprite, a sound, code blocks, etc.), Scratch 1.4 saves it to a clipboard. That clipboard can only contain one item at a time. Clipboard History makes sure *everything* is saved onto the clipboard so that if you accidentally delete more than one item, you can easily recover them without fear of losing your work. With Clipboard History, the clipboard can theoretically hold a limitless amount of images, sounds, sprites and code blocks.
+- [x] Clipboard History - When you delete something (e.g. a background, a sprite, a sound, code blocks, etc.), Scratch 1.4 saves it to a clipboard. That clipboard can only contain one item at a time. Clipboard History makes sure *everything* is saved onto the clipboard so that if you accidentally delete more than one item, you can easily recover them without fear of losing your work. With Clipboard History, the clipboard can theoretically hold a limitless amount of images, sounds, sprites and code blocks.
+- [ ] Backpack - Any scripts that you use frequently? Into the backpack they go! Vulcan's implementation of the backpack allows you to save any code block or script (the only limit is your disk space). *Note from Roxanne: If we can find a way to convert block tuples that have been converted into strings back into tuples then we can implement this feature with hopefully no hassle; if needed push this back to a later version*
+- [ ] Sound Panning - Want to add more depth or realism to your Vulcan project? Then sound panning is the way to go! This feature allows you to pan the sounds your sprite plays to the left channel, the right channel, or a mix of both! Sound panning settings only apply to sprites/channels, not individual sounds. *Note from Roxanne: Easy to implement*
+- [ ] Sound Channels - Sound Channels allow you to have multiple sounds playing with different volumes and different panning! This is useful for decreasing the amount of sprites in your project. *Note from Roxanne: If needed, push this back to a later version*
 
 # Installation
 To install a stable build of Vulcan:
