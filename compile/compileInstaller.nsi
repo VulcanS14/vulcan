@@ -44,16 +44,8 @@ BrandingText "Symple Studios - Vulcan 1.0 - Installer made with NSIS v3.13"
 !insertmacro MUI_PAGE_DIRECTORY
 !insertmacro MUI_PAGE_INSTFILES
 
-Function finishpageaction
-CreateShortcut "$DESKTOP\Vulcan.lnk" "$instdir\Vulcan.exe"
-FunctionEnd
-
 !define MUI_FINISHPAGE_RUN "$INSTDIR\Vulcan.exe"
 !define MUI_FINISHPAGE_RUN_TEXT "Run Vulcan now"
-!define MUI_FINISHPAGE_SHOWREADME ""
-!define MUI_FINISHPAGE_SHOWREADME_NOTCHECKED
-!define MUI_FINISHPAGE_SHOWREADME_TEXT "Add a shortcut Vulcan to your desktop"
-!define MUI_FINISHPAGE_SHOWREADME_FUNCTION addShortcut
 !insertmacro MUI_PAGE_FINISH
 
 !insertmacro MUI_UNPAGE_WELCOME
