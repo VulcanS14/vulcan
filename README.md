@@ -16,6 +16,7 @@
 - [ ] Backpack - Any scripts that you use frequently? Into the backpack they go! Vulcan's implementation of the backpack allows you to save any code block or script (the only limit is your disk space). *Note from Roxanne: If we can find a way to convert block tuples that have been converted into strings back into tuples then we can implement this feature with hopefully no hassle; if needed push this back to a later version*
 - [x] Sound Panning - Want to add more depth or realism to your Vulcan project? Then sound panning is the way to go! This feature allows you to pan the sounds your sprite plays to the left channel, the right channel, or a mix of both! Sound panning settings only apply to sprites/channels, not individual sounds. *Note from Roxanne: Easy to implement*
 - [ ] Scratch 2.0-style clones - Power up your projects with clones! Say you made a counter in Scratch 1.4. In Scratch, it would be multiple sprites running the same scripts. But in Vulcan, it would be clones of the same sprite running the same scripts! That allows you to save resources and storage space when saving Vulcan projects.
+
 ...and more!
 
 # Installation
