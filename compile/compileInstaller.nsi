@@ -16,21 +16,21 @@
 !define PROJECT_REG_UNINSTALL_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\Vulcan"
 !define PROJECT_UNINSTALL_EXE "uninstall.exe"
 
-!define NEW_VERSION "1.0.0.5"
+!define NEW_VERSION "1.0.0.0"
 
 Name "Vulcan"
 InstallDir "$PROGRAMFILES\Symple\Vulcan"
 OutFile "VulcanSetup.exe"
 
-VIProductVersion "1.0.0.5"
+VIProductVersion "1.0.0.0"
 VIAddVersionKey "ProductName" "Vulcan"
 VIAddVersionKey "Comments" "Vulcan is a powerful Scratch 1.4 modification."
 VIAddVersionKey "CompanyName" "Symple Studios"
 VIAddVersionKey "LegalTrademarks" "Vulcan and the Vulcan wordmark are owned by Roxanne Lee and Symple Studios, 2026. Scratch is owned and copyrighted by the MIT Media Lab, 2007-2026."
 VIAddVersionKey "LegalCopyright" "Vulcan was/is created, owned, and developed by Roxanne Lee, 2026. Additionally, Vulcan is developed with the help of Vulcan contributors."
 VIAddVersionKey "FileDescription" "Vulcan is a powerful Scratch 1.4 modification."
-VIAddVersionKey "FileVersion" "1.0.0.5"
-VIAddVersionKey "ProductVersion" "1.0.0.5"
+VIAddVersionKey "FileVersion" "1.0.0.0"
+VIAddVersionKey "ProductVersion" "1.0.0.0"
 BrandingText "Vulcan 1.0.0 - Made with NSIS"
 
 !define MUI_WELCOMEPAGE_TEXT "This wizard will guide you through the installation of Vulcan.$\n$\nPlease make sure previous installations of Vulcan are not running before starting the installation process.$\n$\nClick the Next button to continue."
@@ -140,7 +140,7 @@ SectionGroup "Vulcan" vulcan
 		SetOutPath "$INSTDIR\"
 	
 		WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Vulcan" "DisplayName" "Vulcan"
-		WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Vulcan" "DisplayVersion" "1.0.0.5"
+		WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Vulcan" "DisplayVersion" "1.0.0.0"
 		WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Vulcan" "Publisher" "Symple Studios"
 		WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Vulcan" "DisplayIcon" "$INSTDIR\Icons\vulcanIcon.ico"
 		WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Vulcan" "NoModify" 1
@@ -220,6 +220,4 @@ Section "Uninstall"
 	DeleteRegKey HKLM "Software\Classes\Vulcan Sprite"
 	DeleteRegKey HKLM "Software\Classes\.vub"
 	DeleteRegKey HKLM "Software\Classes\Vulcan Backpack File"
-	DeleteRegKey HKLM "Software\Classes\.vux"
-	DeleteRegKey HKLM "Software\Classes\Vulcan Extension"
 SectionEnd
