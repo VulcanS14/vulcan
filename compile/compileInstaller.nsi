@@ -152,7 +152,7 @@ SectionGroup "Vulcan" vulcan
 		WriteRegStr HKLM "Software\Classes\.vus" "" "Vulcan Sprite"
 		WriteRegStr HKLM "Software\Classes\Vulcan Sprite\shell\open\command" "" "$INSTDIR\Vulcan.exe $\"$INSTDIR\Vulcan.image$\" $\"%1$\""
 	
-		File /x "Vulcan.changes" /x "SqueakV2.sources" /x "ScratchSkin\*.*" "C:\vulcanRes\vulcanWin\dev\classic\*.*"
+		File /x "Vulcan.changes" /x "SqueakV2.sources" /x "ScratchSkin\*.*" "C:\vulcanRes\vulcanWin\dev\*.*"
 		File /r "C:\vulcanRes\vulcanWin\dev\Icons"
 	
 		CreateDirectory $SMPROGRAMS\Vulcan
