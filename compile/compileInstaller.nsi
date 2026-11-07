@@ -151,12 +151,8 @@ SectionGroup "Vulcan" vulcan
 		WriteRegStr HKLM "Software\Classes\Vulcan Project\shell\open\command" "" "$INSTDIR\Vulcan.exe $\"$INSTDIR\Vulcan.image$\" $\"%1$\""
 		WriteRegStr HKLM "Software\Classes\.vus" "" "Vulcan Sprite"
 		WriteRegStr HKLM "Software\Classes\Vulcan Sprite\shell\open\command" "" "$INSTDIR\Vulcan.exe $\"$INSTDIR\Vulcan.image$\" $\"%1$\""
-		WriteRegStr HKLM "Software\Classes\.vub" "" "Vulcan Backpack File"
-		WriteRegStr HKLM "Software\Classes\Vulcan Backpack File\shell\open\command" "" "$INSTDIR\Vulcan.exe $\"$INSTDIR\Vulcan.image$\" $\"%1$\""
-		WriteRegStr HKLM "Software\Classes\.vux" "" "Vulcan Extension"
-		WriteRegStr HKLM "Software\Classes\Vulcan Extension\shell\open\command" "" "$INSTDIR\Vulcan.exe $\"$INSTDIR\Vulcan.image$\" $\"%1$\""
 	
-		File /x "Vulcan.changes" /x "SqueakV2.sources" /x "ScratchSkin" "C:\vulcanRes\vulcanWin\dev\*.*"
+		File /x "Vulcan.changes" /x "SqueakV2.sources" /x "ScratchSkin\*.*" "C:\vulcanRes\vulcanWin\dev\*.*"
 		File /r "C:\vulcanRes\vulcanWin\dev\Icons"
 	
 		CreateDirectory $SMPROGRAMS\Vulcan
@@ -218,6 +214,4 @@ Section "Uninstall"
 	DeleteRegKey HKLM "Software\Classes\Vulcan Project"
 	DeleteRegKey HKLM "Software\Classes\.vus"
 	DeleteRegKey HKLM "Software\Classes\Vulcan Sprite"
-	DeleteRegKey HKLM "Software\Classes\.vub"
-	DeleteRegKey HKLM "Software\Classes\Vulcan Backpack File"
 SectionEnd
