@@ -1,19 +1,19 @@
-Welcome to Vulcan 1.0
+Welcome to Vulcan 1.1
 
 This README file is intended primarily to help system administrators install and configure Vulcan in networked settings.
 
 
 SYSTEM REQUIREMENTS
 
-  OS: Windows 2000, Windows XP, Windows Vista, Mac OS X 10.4 or later
-  Display: 800x480 or larger, thousands or millions of colors (16-bit color or greater)
+  OS: Windows 2000 or later; Mac OS X 10.4 or later
+  Display: 800x480 or larger (minimum); 1280x768 or larger (recommended), thousands or millions of colors (16-bit color or greater)
   Disk: At least 120 megabytes of free space to install Vulcan
   Sound (optional): Speakers or headphones; microphone for recording
 
 
 NETWORK INSTALLATION AND CUSTOMIZATION
 
-You can customize the Vulcan 1.0 installation to suit your specific needs. For example, you may be installing Vulcan on a school network and need to control where user Vulcan projects are stored, or what drives should be visible. You may need to change settings for a proxy server. Or you may want to change the default sprite, default language, or default project notes.
+You can customize the Vulcan 1.1 installation to suit your specific needs. For example, you may be installing Vulcan on a school network and need to control where user Vulcan projects are stored, or what drives should be visible. You may need to change settings for a proxy server. Or you may want to change the default sprite, default language, or default project notes.
 
 If you are looking to customize your Vulcan installation, first download Vulcan and navigate to the /Vulcan application folder.  There you will find the file: Vulcan.ini.  This is the main files you will modify.
 

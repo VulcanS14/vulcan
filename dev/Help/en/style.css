@@ -1,0 +1,64 @@
+body {
+	margin: 12px 16px;
+	font-family: "Trebuchet MS", "Tahoma", "Verdana", "Arial", sans-serif;
+}
+#bodyContainer {
+	width: 80%;
+	max-width: 768px;
+	margin: 0 auto;
+	background-color: #eee;
+	font-size: 12pt;
+	overflow: hidden;
+	border-radius: 0;
+	border: 1px solid #0000001f;
+}
+#topBannerArea {
+	height: 56px;
+	padding: 8px 16px;
+	background-color: #1809C5;
+	background-image: linear-gradient(180deg, #7674D7 0%, #1809C5 100%);
+	overflow: hidden;
+}
+#logoPicture {
+	margin: 4px 0;
+}
+#pageContainer {
+	padding: 6px 8px;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 8px 0;
+}
+#secondaryText {
+	font-size: smaller;
+	color: #777;
+	margin: 6px 0;
+}
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child, p:first-child, #secondaryText:first-child {
+	margin-top: 0;
+}
+h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, p:last-child, #secondaryText:last-child {
+	margin-bottom: 0;
+}
+#headerWithBG {
+	background-color: #f11b2700;
+	background-image: linear-gradient(180deg, #1809C500 0%, #1809C500 50%, #1809C57f 50%, #1809C57f 100%);
+}
+a:link {
+	color: #222d7c;
+	text-decoration: none;
+}
+a:visited {
+	color: #222d7c;
+}
+a:hover {
+	color: #f11b27;
+}
+a:active {
+	color: #f11b27;
+}
+#whitelinks a:link, #whitelinks a:visited, #whitelinks a:hover, #whitelinks a:active {
+	color: white;
+}
+ul {
+	padding-inline-start: 32px;
+}
