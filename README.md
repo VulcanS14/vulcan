@@ -5,12 +5,12 @@
 
 > [!WARNING]
 > The version of Vulcan featured *here* is a work-in-progress development build. If
-> you would like to download a more stable version of Vulcan, then please go to
-> (insert itch.io link once finished) or to the releases tab.
+> you would like to download a more stable version of Vulcan, then please go
+> [here](https://r0xyie.itch.io/vulcan) or to the releases tab.
 
 # Features
 > [!NOTE]
-> For a full list of features, go to (insert itch.io link once finished).
+> For a full list of features, go [here](https://r0xyie.itch.io/vulcan).
 
 - [x] Clipboard History - When you delete something (e.g. a background, a sprite, a sound, code blocks, etc.), Scratch 1.4 saves it to a clipboard. That clipboard can only contain one item at a time. Clipboard History makes sure *everything* is saved onto the clipboard so that if you accidentally delete more than one item, you can easily recover them without fear of losing your work. With Clipboard History, the clipboard can theoretically hold a limitless amount of images, sounds, sprites and code blocks.
 - [ ] Backpack - Any scripts that you use frequently? Into the backpack they go! Vulcan's implementation of the backpack allows you to save any code block or script (the only limit is your disk space). *Note from Roxanne: If we can find a way to convert block tuples that have been converted into strings back into tuples then we can implement this feature with hopefully no hassle; if needed push this back to a later version*
